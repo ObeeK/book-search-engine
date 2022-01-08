@@ -21,7 +21,7 @@ type User {
 
 type Book {
     bookId: String!
-    authors: [Strings!]
+    authors: [String!]
     description: String!
     title: String!
     image: String
@@ -46,3 +46,5 @@ type Mutation {
 
 
 `;
+
+module.exports = typeDefs
