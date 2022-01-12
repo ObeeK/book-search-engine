@@ -25,8 +25,8 @@ console.log(token)
     }
 
     try {
-      const {data} = await removeBook({variables: {bookId}});
-console.log(data)
+//       const {data} = await removeBook({variables: {bookId}});
+// console.log(data)
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
     } catch (err) {
